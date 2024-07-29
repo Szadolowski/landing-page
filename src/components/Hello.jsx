@@ -17,7 +17,7 @@ function Hello() {
         </button>
       </nav>
       <img src="/hello-image.png" className="px-16 mt-9 md:mb-36 " />
-      <div className=" w-full h-[300px] bottom-[300px] -mb-[300px] md:h-[1600px] md:bottom-[1600px] md:-mb-[1600px] relative z-10 bg-gradient-to-b from-[#00000000] to-black"></div>
+      <div className=" w-full h-[300px] bottom-[300px] -mb-[300px] md:h-[1400px] md:bottom-[1400px] md:-mb-[1400px] relative z-10 bg-gradient-to-b from-[#00000000] to-black"></div>
     </section>
   );
 }
