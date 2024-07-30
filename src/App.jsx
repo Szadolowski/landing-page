@@ -6,7 +6,7 @@ import TopBar from "./components/TopBar";
 function App() {
   return (
     <main className="bg-[#181818] flex items-center flex-col">
-      <div className="w-full flex justify-center items-center flex-col bg-gradient-to-b from-[#181818]  to-black font-mono">
+      <div className="w-full flex items-center flex-col bg-gradient-to-b from-[#181818] to-black font-mono">
         <TopBar />
         <Hello />
       </div>

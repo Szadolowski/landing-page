@@ -1,3 +1,5 @@
+import ButtonBlue from "./ButtonBlue";
+
 function Hello() {
   return (
     <section className="flex justify-center items-center flex-col mt-52">
@@ -9,9 +11,7 @@ function Hello() {
         freelancers who want a simple way to plan their schedule.
       </p>
       <nav className="flex justify-between flex-row w-[400px] mt-20">
-        <button className="rounded-none text-white font-sans font-bold bg-indigo-500 py-5 px-10">
-          Try For Free
-        </button>
+        <ButtonBlue text="Try For Free" />
         <button className="rounded-none text-white font-sans font-light border-white border-solid border-[1px] py-5 px-10">
           Learn More
         </button>
